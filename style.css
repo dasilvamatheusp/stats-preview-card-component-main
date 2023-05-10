@@ -39,6 +39,8 @@ body, html {
     border-radius: 9px;
     overflow: hidden;
     background-color: var(--cardbackground);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 .container > .img {
