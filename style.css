@@ -120,7 +120,7 @@ footer {
     margin-top: 15px;
     margin-bottom: 20px;
 }
-footer > p {
+footer .attribution > p {
     margin-bottom: 4px;
     color: white;
     font-family: 'Inter', sans-serif;
