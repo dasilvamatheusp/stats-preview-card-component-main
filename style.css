@@ -26,14 +26,15 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     text-align: center;
     overflow-x: hidden;
     background-color: var(--main-background);
 }
 
 .container {
-    height: 720px;
-    width: 300px;
+    height: 730px;
+    width: 350px;
     margin-top: 50px;
     margin-bottom: 35px;
     border-radius: 9px;
@@ -60,7 +61,7 @@ body, html {
 
 .container > .text > .title {
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: var(--main-heading-stats);
     margin-top: 35px;
 }
@@ -88,7 +89,7 @@ body, html {
 .container > .text > .description {
     font-family: 'Inter', sans-serif;
     color: var(--main-paragraph);
-    font-size: 13.7px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 22px;
     margin-top: 18px;
@@ -103,7 +104,7 @@ body, html {
 
 .container > .text > .stats h2{
     font-family: 'Inter', sans-serif;
-    font-size: 21px;
+    font-size: 23px;
     color: var(--main-heading-stats);
 }
 
@@ -111,8 +112,21 @@ body, html {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 300;
     color: var(--stat-headings);
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 8px;
+}
+footer {
+    margin-bottom: 20px;
+}
+footer > p {
+    margin-bottom: 4px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+footer a {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--accent);
 }
 
 @media screen and (min-width: 916px) and (max-width: 1019px) {
@@ -232,5 +246,6 @@ body, html {
     .container > .text > .description br#decisions {
         display: none;
     }
+    
 }
 
